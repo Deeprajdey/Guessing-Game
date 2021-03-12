@@ -8,7 +8,29 @@
       content="width=device-width, initial-scale=1.0"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Template</title>
+    <title>Guessing Number</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <button class="btn again">Again</button>
+      <h4 class="general-text"></h4>
+      <h1 class="title">Guess my Number!</h1>
+      <div class="guessing-number">?</div>
+      <div class="user-input">
+        <input type="number" class="input" />
+        <button class="btn check">Check!</button>
+      </div>
+      <div class="message-section">
+        <h3 class="guessing-msg">Start guessing....</h3>
+        <h3 class="score">
+          Score: <span class="score-number"></span>
+        </h3>
+        <h3 class="high-score">
+          High Score:
+          <span class="high-score-number"></span>
+        </h3>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
