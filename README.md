@@ -1,5 +1,6 @@
-# Basic-templete
+# Guessing-Game
+
 ```
-A BASIC SASS TEMPLATE FOR A QUICK STARTUP
+Its a Guessing Game
 
 ```
